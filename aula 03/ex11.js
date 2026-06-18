@@ -1,12 +1,12 @@
+/*Desenvolver um programa que pergunte um número de 3 casas, e apresente como resultado somente o
+algarismo das centenas*/
 
-
-
-
-
-function responder() {
-    // Pega o que foi digitado no input
-    let cor = document.getElementById("pergunta").value;
-    
-    // Exibe a resposta na própria página
-    document.getElementById("resposta").innerHTML = "Que legal! A cor " + cor + " é linda!";
+let numero = 789
+if (numero > 99 && numero < 1000) {
+let centenas= (numero - (numero %100)) / 100;
+console.log(`Algarismo das centenas: ${centenas}`);
+} else {
+    console.log("Numero fora do intervalo");
 }
+
+

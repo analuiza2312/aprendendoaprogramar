@@ -7,3 +7,5 @@ if (n1 > 0){
 }else {
     console.log(`Nulos`)
 }
+
+/*Desenvolver um programa que leia um número e informe se ele é positivo, negativo ou nulo. */
