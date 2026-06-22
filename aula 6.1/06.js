@@ -1,0 +1,55 @@
+let nomes = ["A", "B", "C", "D", "E"]
+
+let op = "sim".toUpperCase;
+let nome;
+let mudaOP= 1;
+
+while (op == "sim"){
+    nome = "A";
+
+    for (let i = 0; i < nomes.length; i++) {
+        if (nome == nomes[i]) {
+            console.log("Nome existe no vetor");
+        }
+
+        mudaOP++;
+        if(mudaOP == 3) {
+            op = "NÃO";
+        }
+    }
+}
+
+/* otra versão */
+
+let nomes = ["Asdrúbal", "Astrogildo", "Cleyto", "Vandineuza", "Zoroastra"];
+
+let op = "sim".toUpperCase();
+let nome = "Cleyto";
+let mudaOP = 1; //simula o input do usuário
+
+while (op == "SIM") {
+  for (let i = 0; i < nomes.length; i++) {
+    if (nome == nomes[i]) {
+      console.log(${nome} existe no vetor);
+    }
+  }
+
+  nome = "Zoroastra";
+  mudaOP++; // simula o input do usuário
+  if (mudaOP == 3) {
+    op = "NÃO";
+  }
+}
+
+
+
+
+
+
+
+/*Desenvolver um programa que leia 5 nomes de pessoas e armazene no vetor nomes. Em seguida o programa
+deve informar que enquanto o usuário responder SIM, será pedido que ele digite um nome e o programa
+informará se este nome existe ou não no vetor nomes. Em resumo, o programa deverá fazer o seguinte:
+• Perguntar se o usuário quer fazer uma pesquisa de nomes no vetor nomes.
+• Se a resposta for SIM, perguntar qual o nome.
+• Informar se o nome existe ou não no vetor nomes. */
