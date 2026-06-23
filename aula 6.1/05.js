@@ -14,5 +14,5 @@ for (let i = 0; i < 5; i++){
 }
 
 for (let i = 0; i < 5; i++) {
-    console.log(nome: ${nome[i]}\tProva1: ${pr1[i]}\tProva2: ${pr2[i]}\tMédia: ${media[i]}\tSituação: ${sit[i]})
+    console.log(`nome: ${nome[i]}\tProva1: ${pr1[i]}\tProva2: ${pr2[i]}\tMédia: ${media[i]}\tSituação: ${sit[i]}`)
 }

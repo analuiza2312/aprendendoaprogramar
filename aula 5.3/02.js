@@ -5,4 +5,4 @@ for (let i = 1; i <= n; i++) {
     soma+=1;
 }
 
-console.log(`Somatório:` = ${soma})
+console.log(`Somatório:= ${soma}`)
